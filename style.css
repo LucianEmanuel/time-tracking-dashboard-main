@@ -61,6 +61,13 @@ h2 {
   line-height: 1.2;
   margin-top: 0.5rem;
 }
+.sr-only {
+  position: absolute;
+  left: -1000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 .flex {
   display: flex;
   align-items: center;
