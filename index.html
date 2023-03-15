@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        margin-top: 5rem;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <article class="menu">
+        <div class="card-about-user flex">
+          <img src="images/image-jeremy.png" alt="Photo of Jeremy Robson" />
+          <div class="menu-text">
+            <p>Report for</p>
+            <h2>Jeremy Robson</h2>
+          </div>
+        </div>
+        <div class="period-raport">
+          <ul class="period-items flex">
+            <li class="period-item daily active">Daily</li>
+            <li class="period-item weekly">Weekly</li>
+            <li class="period-item monhtly">Monthly</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card work">
+        <div class="card-data">
+          <div class="card-text flex">
+            <p class="card-title">Work</p>
+            <img src="images/icon-ellipsis.svg" alt="icon ellipsis" />
+          </div>
+          <div class="raport flex">
+            <p class="large-font">5hrs</p>
+            <p class="prev-raport">Last Day - 7hrs</p>
+          </div>
+        </div>
+      </article>
+      <article class="card play">
+        <div class="card-data">
+          <div class="card-text flex">
+            <p class="card-title">Play</p>
+            <img src="images/icon-ellipsis.svg" alt="icon ellipsis" />
+          </div>
+          <div class="raport flex">
+            <p class="large-font">1hrs</p>
+            <p class="prev-raport">Last Day - 2hrs</p>
+          </div>
+        </div>
+      </article>
+      <article class="card study">
+        <div class="card-data">
+          <div class="card-text flex">
+            <p class="card-title">Study</p>
+            <img src="images/icon-ellipsis.svg" alt="icon ellipsis" />
+          </div>
+          <div class="raport flex">
+            <p class="large-font">0hrs</p>
+            <p class="prev-raport">Last Day - 1hrs</p>
+          </div>
+        </div>
+      </article>
+      <article class="card exercise">
+        <div class="card-data">
+          <div class="card-text flex">
+            <p class="card-title">Exercise</p>
+            <img src="images/icon-ellipsis.svg" alt="icon ellipsis" />
+          </div>
+          <div class="raport flex">
+            <p class="large-font">1hrs</p>
+            <p class="prev-raport">Last Day - 1hrs</p>
+          </div>
+        </div>
+      </article>
+      <article class="card social">
+        <div class="card-data">
+          <div class="card-text flex">
+            <p class="card-title">Social</p>
+            <img src="images/icon-ellipsis.svg" alt="icon ellipsis" />
+          </div>
+          <div class="raport flex">
+            <p class="large-font">1hrs</p>
+            <p class="prev-raport">Last Day - 3hrs</p>
+          </div>
+        </div>
+      </article>
+      <article class="card self-care">
+        <div class="card-data">
+          <div class="card-text flex">
+            <p class="card-title">Self Care</p>
+            <img src="images/icon-ellipsis.svg" alt="icon ellipsis" />
+          </div>
+          <div class="raport flex">
+            <p class="large-font">0hrs</p>
+            <p class="prev-raport">Last Day - 1hrs</p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/LucianEmanuel">LucianEmanuel</a>.
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
